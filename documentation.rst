@@ -19,14 +19,14 @@ Principles
 
 Given the tools we are using, the following principles should be applied:
 
-1. We should treat the documentation as first-class deliverable of our software.
+1. We should treat the documentation as first-class deliverable of our software. When you write a public API for module, always build the doc as you develop and check that the doc makes sense.
 
-2. It's important to treat both the narrative part and the API part properly.
+2. It's important to treat both the narrative part and the API part properly. If you document only your API, as some developers do, this won't be enough to get potential users on board with our efforts.
 
 3. For the API part, one should document all the public parts (classes, methods, attributes, functions) of the API, and nothing else, with proper docstrings. 
 
 
-Examples of outstanding documentation include: `Flask <http://flask.pocoo.org/docs/>`_, `SQLAlchemy <http://docs.sqlalchemy.org/en/>`_ and `scikit-learn <http://scikit-learn.org/stable/documentation.html>`_.
+Examples of outstanding documentation (among many others) include: `Flask <http://flask.pocoo.org/docs/>`_, `SQLAlchemy <http://docs.sqlalchemy.org/en/>`_ and `scikit-learn <http://scikit-learn.org/stable/documentation.html>`_.
 
 
 
