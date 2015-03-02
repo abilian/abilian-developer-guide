@@ -64,7 +64,7 @@ We expect our developers to be fluent in the following languages:
 - Python (2 and 3)
 - JavaScript (including ES6)
 - HTML
-- CSS / LESS / SASS
+- CSS (and its more powerful variants, LESS and SASS)
 - RestucturedText and Markdown
 - English
 
@@ -74,9 +74,13 @@ Principles
 
 Here is a short list of principles (or list of lists of principles) that should guide you when working at Abilian:
 
-- Write code for others (including "future you"). This 
+- Write code for others (including "future you"), not just for the computer.
 
-- Minimize feedback loops. When developing driven by tests, 
+- Minimize all feedback loops. This includes for instance:
+
+  1. The time it takes to run the unit test suite (ideally, no more than a few seconds).
+  2. The time it takes between a change in the code and a change in the web Browser.
+  3. The time between a customer request and the moment it can be used.
 
 - Practive Test-Driven Development (TDD).
 
@@ -87,13 +91,13 @@ Here is a short list of principles (or list of lists of principles) that should 
 
 - Practice "Documentation Driven Development", for public projects.
 
-	1. Write documentation alongside the code. The simple act of trying to explain to others what we are trying to achieve with our software, and how, helps us clarify our thinking. If it's too hard to explain, then it's probably badly architected, designed or implemented.
+  1. Write documentation alongside the code. The simple act of trying to explain to others what we are trying to achieve with our software, and how, helps us clarify our thinking. If it's too hard to explain, then it's probably badly architected, designed or implemented.
 
-	2. A simple variant is to practice "`README Driven Development <http://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`".
+  2. A simple variant is to practice "`README Driven Development <http://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`_".
 
 - Practice Domain Driven Design (DDD).
 
-	See the Architecture & Design chapter in this document.
+  See the Architecture & Design chapter in this document.
 
 - To ease developments on modern hosting platforms (including our own servers), we've adopted the "Twelve Factor" principles, see: <http://12factor.net/>.
 
