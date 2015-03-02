@@ -123,9 +123,10 @@ Additional references:
 Test Driven Development
 -----------------------
 
-We're using py.test as our primary test runner and test framework, as we believe it to me the most "pythonic" of all testing frameworks (much more so that the standard library's ``unittest`` module, which is clearly heavily influence by Java and indirectly SmallTalk). This was not always the case, so we plan to migrate our tests progressively to fully leverage py.test as a testing framework (and not just a test runner).
+Motivation and principles
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After seeing Gary Bernardt video "Slow test / fast test" (<http://www.youtube.com/watch?v=RAxiiRPHS9k> / <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>), I'm convinced that it's important to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
+After seeing Gary Bernardt video "`Slow test / fast test <http://www.youtube.com/watch?v=RAxiiRPHS9k>`_" (see also `this report <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>`_ on the same talk), I'm convinced that it's important to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
 
 Our approach should be to distinguish between different tests classes:
 
@@ -144,6 +145,20 @@ Our approach should be to distinguish between different tests classes:
 At this point, functional tests are merged with integration tests, and system and load tests are non-existent.
 
 We should aim for at least 80% measurable line coverage.
+
+
+Tools for Test Driven Development
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We're using py.test as our primary test runner and test framework, as we believe it to me the most "pythonic" of all testing frameworks (much more so that the standard library's ``unittest`` module, which is clearly heavily influence by Java and indirectly SmallTalk). This was not always the case, so we plan to migrate our tests progressively to fully leverage py.test as a testing framework (and not just a test runner).
+
+TODO: 
+
+- Links to pytest docs & tutorials.
+- Mocking
+- Web testing
+
+(Or move this section to other chapters.)
 
 
 API design
