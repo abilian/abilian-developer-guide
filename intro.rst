@@ -6,15 +6,29 @@ About this document
 
 We are writing an `Employee Handbook` <http://en.wikipedia.org/wiki/Employee_handbook> for our current and future developers.
 
-This is a work in progress. Actually, what you are reading now is a very early draft.
-
-Even if it was "finished" at some point, it should still be updated at least twice a year to reflect the evolutions of our business and of our technology choices.
-
 Here are some other similar document that have served as inspiration as we wrote this documents:
 
 - <https://djaodjin.com/blog/guidelines.book.html>
 - <https://github.com/thisissoon/Handbook>
 - <http://playbook.thoughtbot.com/>
+
+Status
+~~~~~~
+
+This is a work in progress. Actually, what you are reading now is a very early draft.
+
+Even if it was "finished" at some point, it should still be updated at least twice a year to reflect the evolutions of our business and of our technology choices.
+
+Why is this document public?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Why not? There are no trade secrets in this document.
+
+Here are a few reasons:
+
+- Hopefully, it will be useful to other people / companies.
+- By publishing it, we hope to attract like-minded developers to strengthen our team.
+
 
 
 Vision
@@ -24,7 +38,7 @@ Vision
 About Abilian
 ~~~~~~~~~~~~~
 
-Abilian develops a software platform (also called Abilian), horizontal products (Abilian SBE = an Enterprise Social Networking platform, Abilian CRM = a CRM platform, etc.) and vertical products (ex: our software for competiveness clusters, etc.).
+`Abilian <http://www.abilian.com>`_ develops a software platform (also called Abilian), horizontal products (Abilian SBE = an Enterprise Social Networking platform, Abilian CRM = a CRM platform, etc.) and vertical products (ex: our software for competiveness clusters, etc.).
 
 The goals for the technical team are:
 
