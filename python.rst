@@ -8,7 +8,9 @@ We're mostly following PEP8 and the Google Python Style Guide (<http://google-st
 
 The major deviation is that we prefer our indentation to be 2 spaces instead of 4.
 
-I have tried the three main code checkers out there (pep8, PyFlakes and PyLint) but haven't found them very useful, except to track trivial issues.
+We've been using automated code checkers (pep8, PyFlakes and PyLint) with appropriate settings to ensure that deviations from the coding standard, as well as some non-stylistic issues, are detected.
+
+We plan to use Git commit hooks to ensure that every new commit in the future fully respects these standards.
 
 
 Python 2 vs. Python 3
@@ -27,6 +29,8 @@ General Python recommandations
 ------------------------------
 
 - <http://stevenloria.com/python-best-practice-patterns-by-vladimir-keleshev-notes/>
+
+TODO: add more.
 
 
 Python tooling
@@ -64,7 +68,6 @@ Packaging
 We package our Python projects using the standard tools (distutils, setuptools, pip). 
 
 TODO.
-
 
 
 Additional Python links

@@ -85,12 +85,23 @@ References
 - `DDD in Ruby <http://victorsavkin.com/ddd>`_.
 
 
-Hexagonal Architecture
-----------------------
+Hexagonal Architecture (aka "Ports & Adapters", aka "Onion Ar")
+-----------------------------------------------
+
+(Also known as "Ports & Adapters" or "Onion Architecture").
 
 Here's a high level view of how we should structure our framework:
 
 - <http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html> (+ all the references in the text).
+- <http://alistair.cockburn.us/Hexagonal+architecture>
+
+This architectural principle is compatible with DDD (see: <http://www.infoq.com/news/2014/10/ddd-onion-architecture>).
+
+Additional references:
+
+- <http://fideloper.com/hexagonal-architecture> (for PHP)
+- <http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers> (for Rails)
+
 
 
 Test Driven Development
