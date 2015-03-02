@@ -70,6 +70,32 @@ We package our Python projects using the standard tools (distutils, setuptools, 
 TODO.
 
 
+Standard structure for a Python project
+---------------------------------------
+
+A Python project MUST have the following files:
+
+- ``README.rst``: we prefer ``.rst`` over ``.md`` because that's the markup language to use if you want your project to look good on PyPI.
+- ``LICENSE.txt``
+- ``setup.py``
+- ``requirements.txt``
+- ``tox.ini`` 
+- ``.travis.yml``
+- ``Makefile``: cf. supra.
+
+It SHOULD also have the following files:
+
+- ``setup.cfg``: used to contain config for additional files (ex: Babel, pep8, pyflakes, Sphinx...)
+- ``etc/``: containing additional configuration files for tools that don't support ``setup.cfg`` (ex: ``pylint.rc``).
+
+It MAY also contain:
+
+- ``Vagrantfile``
+- ``Dockerfile``
+- ``deploy/``: for scripts related to deployment (bash, Ansible...)
+- ``fabfile.py``: same
+
+
 Additional Python links
 -----------------------
 

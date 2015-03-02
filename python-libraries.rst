@@ -97,6 +97,12 @@ WTForms
 -  http://wtforms.simplecodes.com/
 
 
+Babel
+-----
+
+- TODO: explain how to use Babel.
+
+
 Other libraries
 ---------------
 
