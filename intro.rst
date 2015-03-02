@@ -6,7 +6,7 @@ About this document
 
 We are writing an `Employee Handbook` <http://en.wikipedia.org/wiki/Employee_handbook> for our current and future developers.
 
-This is a work in progress.
+This is a work in progress. Actually, what you are reading now is a very early draft.
 
 Even if it was "finished" at some point, it should still be updated at least twice a year to reflect the evolutions of our business and of our technology choices.
 

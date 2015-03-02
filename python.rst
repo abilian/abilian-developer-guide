@@ -4,9 +4,9 @@ Python specific recommendations
 Style guide
 -----------
 
-We're mostly following PEP8 and the Google Python Style Guide (<http://google-styleguide.googlecode.com/svn/trunk/pyguide.html>).
+We're mostly following PEP8 and the `Google Python Style Guide <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html>`_.
 
-The major deviation is that we prefer our indentation to be 2 spaces instead of 4.
+The major deviation is that we prefer our indentation to be 2 spaces instead of 4. This may change in the future.
 
 We've been using automated code checkers (pep8, PyFlakes and PyLint) with appropriate settings to ensure that deviations from the coding standard, as well as some non-stylistic issues, are detected.
 
@@ -22,7 +22,7 @@ We've started work to support Python 3 (alongside Python 2) on our open source p
 
 We're using the `Python Future <http://python-future.org/>`_ project for this. 
 
-This cheat sheet: <http://python-future.org/compatible_idioms.html> is specially useful.
+This `cheat sheet <http://python-future.org/compatible_idioms.html>`_ is specially useful.
 
 
 General Python recommandations
@@ -55,11 +55,11 @@ TODO.
 PyPI mirror
 ~~~~~~~~~~~
 
-We have set up a PyPI mirror, using the `devpi <http://doc.devpi.net/latest/>`_ project.
+We have set up an internal PyPI mirror, using the `devpi <http://doc.devpi.net/latest/>`_ project.
 
 Its main use is for our CI server (Jenkins).
 
-Of course, our public open source projects should be buildable without dependencies on it.
+Of course, our public open source projects should be buildable without depending on it.
 
 
 Packaging

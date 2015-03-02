@@ -41,17 +41,30 @@ SOLID means:
 
 Here are a few references:
 
-- SOLID <http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)> and GRASP <http://en.wikipedia.org/wiki/GRASP_(object-oriented_design)>
+- `SOLID <http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>`_ and `GRASP <http://en.wikipedia.org/wiki/GRASP_(object-oriented_design)>`_ (according to Wikipedia)
 - See also: <http://nikic.github.com/2011/12/27/Dont-be-STUPID-GRASP-SOLID.html>
 
 
 Domain Driven Design
 --------------------
 
+Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model.[1] The premise of domain-driven design is the following:
+
+- Placing the project's primary focus on the core domain and domain logic.
+- Basing complex designs on a model of the domain.
+- Initiating a creative collaboration between technical and domain experts to iteratively refine a conceptual model that addresses particular domain problems.
+
+(Source: `Domain-driven design on Wikipedia <http://en.wikipedia.org/wiki/Domain-driven_design>`_).
+
+These are very general (and important) principles, which we will develop in future version of this guide.
+
+There are also important and useful principles on how to achitect and design you application. See below for some patterns.
+
+
 Tactical patterns
 ~~~~~~~~~~~~~~~~~
 
-Here is the list of the technical (or tactical patterns) that are relevant to DDD.
+Here is the list of the technical (or tactical) patterns that are relevant to DDD.
 
 - Layered (or onion, or hexagonal) Architecture: "Isolate the expression of the domain model and the business logic, and eliminate any dependency on infrastructure, user interface, or even application logic that is not business logic."
 
@@ -71,10 +84,14 @@ Here is the list of the technical (or tactical patterns) that are relevant to DD
 
 - Factories: "Shift the responsibility for creating instances of complex objects and aggregates to a separate object, which may itself have no responsibility in the domain model but is still part of the domain design."
 
+Some of these patterns may look a bit scary for a Python developer at first, but they make sense. See `Deliver Domain Driven Design Dynamically <http://goo.gl/BvTcHJ>`_ for a good discussion.
+
+
 Other patterns
 ~~~~~~~~~~~~~~
 
 See Eric Evans' book and/or the Domain-Driven Design Reference below.
+
 
 References
 ~~~~~~~~~~
@@ -101,7 +118,6 @@ Additional references:
 
 - <http://fideloper.com/hexagonal-architecture> (for PHP)
 - <http://victorsavkin.com/post/42542190528/hexagonal-architecture-for-rails-developers> (for Rails)
-
 
 
 Test Driven Development
@@ -133,11 +149,15 @@ We should aim for at least 80% measurable line coverage.
 API design
 ----------
 
-As library / frameworks author, we must be extra careful
+As library / frameworks author, we must be extra careful wrt the quality of our API. A good project should have APIs that are stable (so if you make a mistake, you must live with it for a long time), easy to use and remember, etc.
 
 - <http://qt-project.org/wiki/API_Design_Principles>
 - <http://lcsd05.cs.tamu.edu/slides/keynote.pdf>
 - <http://pyvideo.org/video/1705/api-design-for-library-authors>
+
+This is both true for "regular" API (in whatever language we are working on) and for "Web" API.
+
+For Web API, we're promoting the REST architectural style.
 
 
 Books
