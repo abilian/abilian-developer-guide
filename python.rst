@@ -20,7 +20,7 @@ We've started work to support Python 3 (alongside Python 2) on our open source p
 
 We're using the `Python Future <http://python-future.org/>`_ project for this. 
 
-This cheat sheet: <http://python-future.org/compatible_idioms.html> is specially usful.
+This cheat sheet: <http://python-future.org/compatible_idioms.html> is specially useful.
 
 
 General Python recommandations
@@ -46,6 +46,7 @@ Mandatory read: <https://caremad.io/2013/07/setup-vs-requirement/>.
 Virtualenv
 ~~~~~~~~~~
 
+TODO.
 
 PyPI mirror
 ~~~~~~~~~~~
@@ -60,7 +61,9 @@ Of course, our public open source projects should be buildable without dependenc
 Packaging
 ~~~~~~~~~
 
-We package our Python projects using
+We package our Python projects using the standard tools (distutils, setuptools, pip). 
+
+TODO.
 
 
 
