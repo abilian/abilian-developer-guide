@@ -123,7 +123,7 @@ Additional references:
 Test Driven Development
 -----------------------
 
-We're using Nose as our primary test runner, but try also to support py.test. 
+We're using py.test as our primary test runner and test framework, as we believe it to me the most "pythonic" of all testing frameworks (much more so that the standard library's ``unittest`` module, which is clearly heavily influence by Java and indirectly SmallTalk). This was not always the case, so we plan to migrate our tests progressively to fully leverage py.test as a testing framework (and not just a test runner).
 
 After seeing Gary Bernardt video "Slow test / fast test" (<http://www.youtube.com/watch?v=RAxiiRPHS9k> / <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>), I'm convinced that it's important to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
 
