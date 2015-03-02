@@ -1,0 +1,39 @@
+Documentation
+=============
+
+Good developers don't just write code, they also write good documentation alongside the code.
+
+
+Tools
+-----
+
+For Python software, we use Sphinx to generate documentation from both standalone texts, and text embedded in the code (using Docstrings).
+
+We publish our documentation on `ReadTheDoc <https://readthedocs.org/>`_.
+
+The ``README.rst`` files at the root of our projects are also extremely important (as they are often the first things that people read when discovering our projects, either on GitHub or on PyPI).
+
+
+Principles
+----------
+
+Given the tools we are using, the following principles should be applied:
+
+1. We should treat the documentation as first-class deliverable of our software.
+
+2. It's important to treat both the narrative part and the API part properly.
+
+3. For the API part, one should document all the public parts (classes, methods, attributes, functions) of the API, and nothing else, with proper docstrings. 
+
+
+Examples of outstanding documentation include: `Flask <http://flask.pocoo.org/docs/>`_, `SQLAlchemy <http://docs.sqlalchemy.org/en/>`_ and `scikit-learn <http://scikit-learn.org/stable/documentation.html>`_.
+
+
+
+References
+----------
+
+- <http://docs.python-guide.org/en/latest/writing/documentation/>
+- <http://ericholscher.com/blog/2014/feb/27/how-i-judge-documentation-quality/>
+- <http://docs.writethedocs.org/>
+- <http://jacobian.org/writing/great-documentation/>
