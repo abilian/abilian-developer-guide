@@ -37,13 +37,16 @@ Definition of Done
 
 Definition: <http://guide.agilealliance.org/guide/definition-of-done.html>
 
+See also: <http://www.scrum-breakfast.com/2014/05/the-three-faces-of-done.html>
+
 Expected benefits:
 
 - the Definition of Done provides a checklist which usefully guides pre-implementation activities: discussion, estimation, design
 - the Definition of Done limits the cost of rework once a feature has been accepted as "done"
 - having an explicit contract limits the risk of misunderstanding and conflict between the development team and the customer or product owner
 
-For our open source projects, our definition:
+
+For our open source projects, here is our definition (draft):
 
 - Code produced (all ‘to do’ items in code completed)
 - Code commented according to our commenting guidelines

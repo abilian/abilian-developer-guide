@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 2
 
    intro
+   getting-started
    process
    design-architecture
    modeling
