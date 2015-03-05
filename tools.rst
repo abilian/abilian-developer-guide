@@ -55,9 +55,7 @@ private projects (+ for public projects too).
 Tasks and issues management
 ---------------------------
 
-We're currently using Redmine and Taiga.
-
-This is not set in stone.
+See the "Process" chapter. [TODO: link].
 
 
 Devops tools

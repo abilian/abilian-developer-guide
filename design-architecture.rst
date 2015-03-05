@@ -100,6 +100,7 @@ References
 - `Deliver Domain Driven Design Dynamically <http://goo.gl/BvTcHJ>`_ (talk about DDD in Python).
 - `DDD with Ruby <http://virtual-genius.com/presentations/ddd_with_ruby_20130614.html>`_.
 - `DDD in Ruby <http://victorsavkin.com/ddd>`_.
+- `Code in the Language of the Domain <http://programmer.97things.oreilly.com/wiki/index.php/Code_in_the_Language_of_the_Domain>`_ (short, but profound)
 
 
 Hexagonal Architecture (aka "Ports & Adapters", aka "Onion Ar")

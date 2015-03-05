@@ -7,10 +7,36 @@ Priorizing and scheduling tasks
 Scrum & Kanban
 ~~~~~~~~~~~~~~
 
+TODO.
+
 References:
 
 -  http://leansoftwareengineering.com/ksse/scrum-ban/
 -  http://www.infoq.com/minibooks/kanban-scrum-minibook
+
+Bug tracking
+~~~~~~~~~~~~
+
+We use bug trackers to tracks bugs. Sometimes 
+
+Of course the workflow is different when we work on customer projets and on open source projects.
+
+One important thing to keep in mind is how to prioritize issues:
+
+- Critical: TODO.
+- Blocking: TODO.
+- Major: TODO.
+- Minor: TODO.
+
+
+Tools
+~~~~~
+
+For our public projects, which are hosted on GitHub, we use GitHub's issue tracker.
+
+We use Huboard as a kanban-like front-end to GitHub.
+
+For our customers projets, we use Redmine (and ar considering switching to Taiga).
 
 
 Git
@@ -29,8 +55,17 @@ Our git branchig model is mix of `git-flow <http://nvie.com/posts/a-successful-g
 Branching
 ~~~~~~~~~
 
+TODO.
+
 Code reviews
 ~~~~~~~~~~~~
+
+TODO.
+
+References
+~~~~~~~~~~
+
+- <http://www.stateofcode.com/2013/05/never-commit-to-master/>
 
 
 Versionning and releasing
@@ -41,3 +76,5 @@ Versionning and releasing
 
 Releasing
 ~~~~~~~~~
+
+
