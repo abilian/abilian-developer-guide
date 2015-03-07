@@ -124,26 +124,30 @@ Additional references:
 Test Driven Development
 -----------------------
 
+    The best thing about years of TDD practice is that I will *never* commit a test without seeing it fail, whether I write it first or not. -- Gary Bernhardt <https://twitter.com/garybernhardt/status/572856330572075010>
+
 Motivation and principles
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After seeing Gary Bernardt video "`Slow test / fast test <http://www.youtube.com/watch?v=RAxiiRPHS9k>`_" (see also `this report <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>`_ on the same talk), I'm convinced that it's important to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
+After seeing Gary Bernardt video "`Slow test / fast test <http://www.youtube.com/watch?v=RAxiiRPHS9k>`_" (see also `this report <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>`_ on the same talk), I'm convinced that it's important, and possible to achieve, to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
 
 Our approach should be to distinguish between different tests classes:
 
-- unit tests (in tests/unit), that test classes mostly in isolation, using mocks or stubs if needed.
+- Unit tests (in tests/unit), that test classes mostly in isolation, using mocks or stubs if needed. These are the most important tests from the software design point of view, and these are tests that should run really fast (a few seconds for a whole test suite).
 
-- integration tests (in tests/integration), that test integration of actual components (no mocks).
+- Integration tests (in tests/integration), that test integration of actual components (no mocks).
 
-- functional web tests, that test the web apps using the web interface, either using a browser (Selenium / WebDriver) or that leverage the framework to a similar effect.
+- Functional web tests, that test the web apps using the web interface, either using a browser (Selenium / WebDriver) or that leverage the framework to a similar effect.
 
-- functional web API tests, that thoroughly test a web API using either an external tools (ex: FunkLoad) or the testing framework provided by Flask.
+- Functional web API tests, that thoroughly test a web API using either an external tools (ex: FunkLoad) or the testing framework provided by Flask.
 
-- load tests, using something like FunkLoad.
+- Load tests, using something like FunkLoad.
 
-- system tests, that test the full system (in a VM), including upgrade scenarios.
+- System tests, that test the full system (in a VM), including upgrade scenarios.
 
-At this point, functional tests are merged with integration tests, and system and load tests are non-existent.
+An important source of confusion for Python developers that are not experimented with TDD is that just because you are importing the ``unitest`` module doesn't mean you are doing unit testing (same if you are using, as we do, the ``py.test`` framework). Unit testing means that you are testing units in isolation.
+
+At this point, our functional tests are merged with integration tests, load tests are non-existent. Regarding system tests, the tests that we are running on the Travis CI platform could qualify as systems tests, since we're rebuilding a whole VM each time we're running the test suite on Travis. But we are are not testing upgrade at this point.
 
 We should aim for at least 80% measurable line coverage.
 
