@@ -8,6 +8,10 @@ Since this section is a little short on content, here's a terrific list of recom
 
 - <https://github.com/bendc/frontend-guidelines/blob/master/README.md>
 
+Also, this coding guide for HTML and CSS:
+
+- <http://codeguide.co/>
+
 
 Past, present, future
 ---------------------
@@ -71,6 +75,7 @@ We're using LESS (or SASS, depending on the phase of the moon).
 
 We're also trying to find a way to write better (more manageable) CSS/LESS/SASS code to go along our pluggable architecture. The following posts (and all the references given therein) give a lot of interesting advice and point to several useful methodologies, that we should put to use:
 
+- <https://speakerdeck.com/mdo/at-mdo-ular-css>
 - <https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06>
 - <https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem>
 
