@@ -3,6 +3,21 @@ Documentation
 
 Good developers don't just write code, they also write good documentation alongside the code.
 
+Principles
+----------
+
+Given the tools we are using, the following principles should be applied:
+
+1. We should treat the documentation as first-class deliverable of our software. When you write a public API for module, always build the doc as you develop and check that the doc makes sense.
+
+2. It's important to treat both the narrative part and the API part properly. If you document only your API, as some developers do, this won't be enough to get potential users on board with our efforts.
+
+3. For the API part, one should document all the public parts (classes, methods, attributes, functions) of the API, and nothing else, with proper docstrings. 
+
+
+Examples of outstanding documentation (among many others) include: `Flask <http://flask.pocoo.org/docs/>`_, `SQLAlchemy <http://docs.sqlalchemy.org/en/>`_ and `scikit-learn <http://scikit-learn.org/stable/documentation.html>`_.
+
+
 Comments
 --------
 
@@ -24,19 +39,17 @@ We publish our documentation on `ReadTheDoc <https://readthedocs.org/>`_.
 The ``README.rst`` files at the root of our projects are also extremely important (as they are often the first things that people read when discovering our projects, either on GitHub or on PyPI).
 
 
-Principles
-----------
+Specific recommendations regarding Sphinx
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Given the tools we are using, the following principles should be applied:
+For Sphinx to produce outstanding documentation, we need to pay attention to the way we write docstrings.
 
-1. We should treat the documentation as first-class deliverable of our software. When you write a public API for module, always build the doc as you develop and check that the doc makes sense.
+We should use the `Napoleon <http://sphinx-doc.org/latest/ext/napoleon.html>`_ Sphinx plugin.
 
-2. It's important to treat both the narrative part and the API part properly. If you document only your API, as some developers do, this won't be enough to get potential users on board with our efforts.
+See the following links (from the Napoleon doc) for additional recommendation:
 
-3. For the API part, one should document all the public parts (classes, methods, attributes, functions) of the API, and nothing else, with proper docstrings. 
-
-
-Examples of outstanding documentation (among many others) include: `Flask <http://flask.pocoo.org/docs/>`_, `SQLAlchemy <http://docs.sqlalchemy.org/en/>`_ and `scikit-learn <http://scikit-learn.org/stable/documentation.html>`_.
+- <https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt>
+- <https://github.com/Khan/style-guides/blob/master/style/python.md#docstrings>
 
 
 
