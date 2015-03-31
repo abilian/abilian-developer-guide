@@ -77,4 +77,14 @@ Versionning and releasing
 Releasing
 ~~~~~~~~~
 
+To make a release:
+
+- Update the following files: ``CHANGES.rst`` and ``CONTRIBUTORS.rst``.
+- Test locally
+- Commit and push, wait for CI server to report status.
+- Tag: ``git tag vX.Y.Z``
+- Check source build: ``python setup.py sdist``
+- Upload: ``python setup.py sdist upload``
+
+When releasing a new package on PyPI, add the ``python setup.py register`` phase.
 
