@@ -21,12 +21,13 @@ Examples of outstanding documentation (among many others) include: `Flask <http:
 Comments
 --------
 
-	*A delicate matter, requiring taste and judgement. I tend to err on the side of
-	eliminating comments, for several reasons. First, if the code is clear, and uses
-	good type names and variable names, it should explain itself. Second, comments
-	aren't checked by the compiler, so there is no guarantee they're right, especially
-	after the code is modified. A misleading comment can be very confusing. Third,
-	the issue of typography: comments clutter code.* -- Rob Pike
+    *A delicate matter, requiring taste and judgement. I tend to err on the
+    side of eliminating comments, for several reasons. First, if the code is
+    clear, and uses good type names and variable names, it should explain
+    itself. Second, comments aren't checked by the compiler, so there is no
+    guarantee they're right, especially after the code is modified. A
+    misleading comment can be very confusing. Third, the issue of typography:
+    comments clutter code.* -- Rob Pike
 
 
 Tools
@@ -60,3 +61,4 @@ References
 - <http://ericholscher.com/blog/2014/feb/27/how-i-judge-documentation-quality/>
 - <http://docs.writethedocs.org/>
 - <http://jacobian.org/writing/great-documentation/>
+- <https://speakerdeck.com/ogrisel/documentation>

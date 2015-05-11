@@ -82,7 +82,7 @@ To make a release:
 - Update the following files: ``CHANGES.rst`` and ``CONTRIBUTORS.rst``.
 - Test locally
 - Commit and push, wait for CI server to report status.
-- Tag: ``git tag vX.Y.Z``
+- Tag: ``git tag vX.Y.Z``, then ``git push --tags``
 - Check source build: ``python setup.py sdist``
 - Upload: ``python setup.py sdist upload``
 
