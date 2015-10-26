@@ -78,6 +78,8 @@ We're also trying to find a way to write better (more manageable) CSS/LESS/SASS 
 - <https://speakerdeck.com/mdo/at-mdo-ular-css>
 - <https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06>
 - <https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem>
+- <http://benfrain.com/the-ten-commandments-of-sane-style-sheets/>
+- <https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f>
 
 
 Front-end tooling
@@ -86,3 +88,8 @@ Front-end tooling
 TODO: use Gulp, Bower and/or WebPack.
 
 TODO: live reloading.
+
+CSS
+~~~
+
+<http://benfrain.com/floss-your-style-sheets-with-stylelint/>
