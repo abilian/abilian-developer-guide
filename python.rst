@@ -12,6 +12,10 @@ We've been using automated code checkers (pep8, PyFlakes and PyLint) with approp
 
 We plan to use Git commit hooks to ensure that every new commit in the future fully respects these standards.
 
+More:
+
+- <https://github.com/amontalenti/elements-of-python-style>
+
 
 Python 2 vs. Python 3
 ---------------------
