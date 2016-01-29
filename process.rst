@@ -83,6 +83,7 @@ To make a release:
 - Test locally
 - Commit and push, wait for CI server to report status.
 - Tag: ``git tag vX.Y.Z``, then ``git push --tags``
+- `make clean`
 - Check source build: ``python setup.py sdist``
 - Upload: ``python setup.py sdist upload``
 
