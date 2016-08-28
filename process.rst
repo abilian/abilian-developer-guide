@@ -1,8 +1,8 @@
 Process
 =======
 
-Priorizing and scheduling tasks 
--------------------------------
+Prioritizing and scheduling tasks 
+---------------------------------
 
 Scrum & Kanban
 ~~~~~~~~~~~~~~
@@ -42,7 +42,7 @@ For our customers projets, we use Redmine (and ar considering switching to Taiga
 Git
 ---
 
-Our git branchig model is mix of `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ and `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
+Our git branching model is mix of `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ and `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
 
 - Anything in the master branch is deployable
 - To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
