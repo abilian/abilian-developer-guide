@@ -38,7 +38,7 @@ Vision
 About Abilian
 ~~~~~~~~~~~~~
 
-`Abilian <http://www.abilian.com>`_ develops a software platform (also called Abilian), horizontal products (Abilian SBE = an Enterprise Social Networking platform, Abilian CRM = a CRM platform, etc.) and vertical products (ex: our software for competiveness clusters, etc.).
+`Abilian <http://www.abilian.com>`_ develops a software platform (also called Abilian), horizontal products (Abilian SBE = an Enterprise Social Networking platform, Abilian CRM = a CRM platform, etc.) and vertical products (ex: our software for competitiveness clusters, etc.).
 
 The goals for the technical team are:
 
@@ -67,7 +67,7 @@ Open source vs. customers projects
 
 We are working both on public, open source, projects, and private projects for our customers (usually some customizations or extensions to our public projects).
 
-When working on open source projects, we need to take a great care of not just making them sucessful technically, but also everything that will help them get other open source developers interested in the project.
+When working on open source projects, we need to take a great care of not just making them successful technically, but also everything that will help them get other open source developers interested in the project.
 
 
 Languages
@@ -96,7 +96,7 @@ Here is a short list of principles (or list of lists of principles) that should 
   2. The time it takes between a change in the code and a change in the web Browser.
   3. The time between a customer request and the moment it can be used.
 
-- Practive Test-Driven Development (TDD).
+- Practice Test-Driven Development (TDD).
 
   Why? For two reasons: 
 
