@@ -34,7 +34,7 @@ A lot have changed in the JavsScript world over the last three years, since we'v
 
 While the "jQuery + plugins + spaghetti code" approach that we've been using so far is probably enough for the kind of interaction we're featuring currently, it's now time to be more ambitious with our front-end code.
 
-Now is it time to embrace a more decoupled architecture? TODO: discuss pros and cons.
+We need to move our code base to a more modern, decoupled, archiecture.
 
 
 Constraints
@@ -51,25 +51,23 @@ Embrace the future, now
 
 We've used CoffeeScript in the past, but have reversed the decision to base all our front-end developments on CoffeeScript before it was put in practice.
 
-In 2015, we plan to use ES6, first by leverage the recent works on the `Traceur <https://github.com/google/traceur-compiler>`_ and `Babel <https://babeljs.io/>`_ transpilers. Of course, these tools should be fully integrated with the development tools we are using, including:
+We're now using ES6 aka ES2015 using the `Babel <https://babeljs.io/>`_ transpiler for our new projects (part of our existing code base is still based on ES5).
 
-- Seamless build and deployment to the browser (using, e.g., Gulp + Livereload).
-- Source map support.
-- IDE support (source code highlighting, syntax checker, autocompletion, etc.).
+We plan to try using TypeScript in the future.
 
 
 Libraries / frameworks
 ~~~~~~~~~~~~~~~~~~~~~~
 
-We've used Angular on customers projects in the past, and may use it again in the future.
+We've used Angular on customers projects in the past.
 
-We're also watching what others are doing in this space, including, of course, React.
+Our current JavaScript framework of choice is `Vue.js <http://www.vuejs.org/>`_.
 
 
 CSS
 ---
 
-We're using Bootstrap, because it's extremely popular and quite comprehensive.
+We're currently using Bootstrap (v3), because it's extremely popular and quite comprehensive.
 
 We're using LESS (or SASS, depending on the phase of the moon).
 
@@ -82,14 +80,21 @@ We're also trying to find a way to write better (more manageable) CSS/LESS/SASS 
 - <https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f>
 
 
-Front-end tooling
+Build tools
+-----------
+
+We're using NPM for package management, and WebPack for build.
+
+WebPack provides live reloading (with the right extension) so that's cool.
+
+Quality assurance
 -----------------
 
-TODO: use Gulp, Bower and/or WebPack.
+JavaScript: We've started using `eslint` on some projects.
 
-TODO: live reloading.
+CSS: <http://benfrain.com/floss-your-style-sheets-with-stylelint/>
 
-CSS
-~~~
+Unit tests: TODO.
 
-<http://benfrain.com/floss-your-style-sheets-with-stylelint/>
+Functional tests: we should be using Selenium (via Webdriver) more.
+
