@@ -1,14 +1,16 @@
 Python specific recommendations
 ===============================
 
-Style guide
------------
+Style guide & tools
+-------------------
 
-We're mostly following PEP8 and the `Google Python Style Guide <http://google-styleguide.googlecode.com/svn/trunk/pyguide.html>`_.
+We're mostly following PEP8 and the `Google Python Style Guide <https://google.github.io/styleguide/pyguide.html>`_.
 
-The major deviation is that we prefer our indentation to be 2 spaces instead of 4. This may change in the future.
+We've been using automated code checkers (mostly `Flake8 <http://flake8.pycqa.org/en/latest/>`_ nowadays) with appropriate settings to ensure that deviations from the coding standard, as well as some non-stylistic issues, are detected.
 
-We've been using automated code checkers (pep8, PyFlakes and PyLint) with appropriate settings to ensure that deviations from the coding standard, as well as some non-stylistic issues, are detected.
+Furthermore, we're using `YAPF <https://github.com/google/yapf>`_ with the ``google`` settings, to automatically format our Python code. 
+
+We're also using `isort <http://isort.readthedocs.io/en/stable/>`_ to sort imports according to semantic and cosmetic rules.  
 
 We plan to use Git commit hooks to ensure that every new commit in the future fully respects these standards.
 
@@ -20,13 +22,20 @@ More:
 Python 2 vs. Python 3
 ---------------------
 
-We're currently still using Python 2.
+We're currently still using Python 2 pour our production code.
 
-We've started work to support Python 3 (alongside Python 2) on our open source projects, we plan to finish it in 2015.
+We've started work to support Python 3 (alongside Python 2) on our open source projects, we plan to finish it in 2016.
 
-We're using the `Python Future <http://python-future.org/>`_ project for this. 
+We've used the `Python Future <http://python-future.org/>`_ project for this, but more recently switched to `six <https://pythonhosted.org/six/>`_ because it's more standards.
 
-This `cheat sheet <http://python-future.org/compatible_idioms.html>`_ is specially useful.
+``pylint --py3k`` is quite useful to help identify issues in current Python 2 code preventing migration to Python 3.
+
+More info:
+
+- <https://docs.python.org/3/howto/pyporting.html>
+- <http://python3porting.com/>
+- <https://tech.yplanapp.com/2016/08/24/upgrading-to-python-3-with-zero-downtime/>
+- <http://python-future.org/compatible_idioms.html>
 
 
 General Python recommandations
@@ -41,6 +50,16 @@ Python tooling
 --------------
 
 In this section, we list tools that directly support our Python development process.
+
+- YAPF (see above)
+- Flake8 (see above)
+- isort (see above)
+- ``pip-tools`` [TODO]
+
+Not used yet:
+
+- Mypy (static checking using annotations)
+- Pylint (static checker, more powerful than Flake8 but needs more tuning)
 
 
 Managing dependencies
@@ -81,7 +100,7 @@ A Python project MUST have the following files:
 
 - ``README.rst``: we prefer ``.rst`` over ``.md`` because that's the markup language to use if you want your project to look good on PyPI.
 - ``LICENSE.txt``
-- ``setup.py``
+- ``setup.py`` and ``setup.cfg``
 - ``requirements.txt``
 - ``tox.ini`` 
 - ``.travis.yml``
