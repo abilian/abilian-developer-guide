@@ -179,6 +179,14 @@ This is both true for "regular" API (in whatever language we are working on) and
 
 For Web API, we're promoting the REST architectural style.
 
+Other topics
+------------
+
+Naming things
+~~~~~~~~~~~~~
+
+- <http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/>
+- <http://journal.stuffwithstuff.com/2009/06/05/naming-things-in-code/>
 
 Books
 -----
