@@ -54,11 +54,13 @@ See the following links (from the Napoleon doc) for additional recommendation:
 
 
 
-References
-----------
+References & tips
+-----------------
 
 - <http://docs.python-guide.org/en/latest/writing/documentation/>
 - <http://ericholscher.com/blog/2014/feb/27/how-i-judge-documentation-quality/>
 - <http://docs.writethedocs.org/>
+- <http://docness.readthedocs.io/>
 - <http://jacobian.org/writing/great-documentation/>
 - <https://speakerdeck.com/ogrisel/documentation>
+- <https://medium.com/@limedaring/five-tips-for-improving-your-technical-writing-and-documentation-47353723c8a7>
