@@ -22,7 +22,7 @@ More:
 Python 2 vs. Python 3
 ---------------------
 
-We're currently still using Python 2 pour our production code.
+We're currently still using Python 2 in our production code.
 
 We've started work to support Python 3 (alongside Python 2) on our open source projects, we plan to finish it in 2016.
 
@@ -73,7 +73,9 @@ Mandatory read: <https://caremad.io/2013/07/setup-vs-requirement/>.
 Virtualenv
 ~~~~~~~~~~
 
-TODO.
+Virtualenv is a tool to create isolated Python environments.  Why is this good? You can create a new Python environment to run a Python/Flask/whatever app and install all package dependencies into the virtualenv without affecting your system’s site-packages. Need to upgrade a package to see how it affects your app? Create a new virtualenv, install/copy your app into it, run your tests, and delete it when you are done. Just like git makes branching inexpensive and easy, virtualenv makes creating and managing new Python environments inexpensive and easy.
+
+The doc: <https://virtualenv.pypa.io/en/stable/>.
 
 PyPI mirror
 ~~~~~~~~~~~
@@ -90,8 +92,9 @@ Packaging
 
 We package our Python projects using the standard tools (distutils, setuptools, pip). 
 
-TODO.
+The packaging allows us to distribute our modules for all developers who would like to use them.
 
+The packages are hosted on Pypi mirror and can be installed with pip or easyinstall.
 
 Standard structure for a Python project
 ---------------------------------------
