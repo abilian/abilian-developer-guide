@@ -23,7 +23,7 @@ References:
 SOLID & GRASP
 -------------
 
-A solid grasp (or "SOLID GRASP", see below) of object oriented techniques is expected to work on the Abilian project.
+A solid grasp (or "SOLID GRASP", see below) of object-oriented techniques is expected to work on the Abilian project.
 
 SOLID means:
 
@@ -35,7 +35,7 @@ SOLID means:
 
 - Interface segregation principle: many client-specific interfaces are better than one general-purpose interface."
 
-- Dependency inversion principle: one should “Depend upon Abstractions. Do not depend upon concretions."
+- Dependency inversion principle: one should “Depend on Abstractions. Do not depend on concretions."
 
 
 
@@ -56,9 +56,9 @@ Domain-driven design (DDD) is an approach to software development for complex ne
 
 (Source: `Domain-driven design on Wikipedia <http://en.wikipedia.org/wiki/Domain-driven_design>`_).
 
-These are very general (and important) principles, which we will develop in future version of this guide.
+These are very general (and important) principles, which we will develop in future versions of this guide.
 
-There are also important and useful principles on how to achitect and design you application. See below for some patterns.
+There are also important and useful principles on how to architect and design your application. See below for some patterns.
 
 
 Tactical patterns
@@ -108,7 +108,7 @@ Hexagonal Architecture (aka "Ports & Adapters", aka "Onion Ar")
 
 (Also known as "Ports & Adapters" or "Onion Architecture").
 
-Here's a high level view of how we should structure our framework:
+Here's a high-level view of how we should structure our framework:
 
 - <http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html> (+ all the references in the text).
 - <http://alistair.cockburn.us/Hexagonal+architecture>
@@ -129,7 +129,7 @@ Test Driven Development
 Motivation and principles
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After seeing Gary Bernardt video "`Slow test / fast test <http://www.youtube.com/watch?v=RAxiiRPHS9k>`_" (see also `this report <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>`_ on the same talk), I'm convinced that it's important, and possible to achieve, to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
+After seeing Gary Bernhardt video "`Slow test / fast test <http://www.youtube.com/watch?v=RAxiiRPHS9k>`_" (see also `this report <https://pycon-2012-notes.readthedocs.org/en/latest/fast_tests_slow_tests.html>`_ on the same talk), I'm convinced that it's important, and possible to achieve, to have unit tests that pass as fast as possible (< 1 sec!), and possibly slower tests that are not run as often.
 
 Our approach should be to distinguish between different tests classes:
 
@@ -139,13 +139,13 @@ Our approach should be to distinguish between different tests classes:
 
 - Functional web tests, that test the web apps using the web interface, either using a browser (Selenium / WebDriver) or that leverage the framework to a similar effect.
 
-- Functional web API tests, that thoroughly test a web API using either an external tools (ex: FunkLoad) or the testing framework provided by Flask.
+- Functional web API tests, that thoroughly test a web API using either an external tool (ex: FunkLoad) or the testing framework provided by Flask.
 
 - Load tests, using something like FunkLoad.
 
 - System tests, that test the full system (in a VM), including upgrade scenarios.
 
-An important source of confusion for Python developers that are not experimented with TDD is that just because you are importing the ``unitest`` module doesn't mean you are doing unit testing (same if you are using, as we do, the ``py.test`` framework). Unit testing means that you are testing units in isolation.
+An important source of confusion for Python developers that are not experienced with TDD is that just because you are importing the ``unittest`` module doesn't mean you are doing unit testing (same if you are using, as we do, the ``py.test`` framework). Unit testing means that you are testing units in isolation.
 
 At this point, our functional tests are merged with integration tests, load tests are non-existent. Regarding system tests, the tests that we are running on the Travis CI platform could qualify as systems tests, since we're rebuilding a whole VM each time we're running the test suite on Travis. But we are are not testing upgrade at this point.
 
@@ -155,7 +155,7 @@ We should aim for at least 80% measurable line coverage.
 Tools for Test Driven Development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We're using py.test as our primary test runner and test framework, as we believe it to me the most "pythonic" of all testing frameworks (much more so that the standard library's ``unittest`` module, which is clearly heavily influence by Java and indirectly SmallTalk). This was not always the case, so we plan to migrate our tests progressively to fully leverage py.test as a testing framework (and not just a test runner).
+We're using py.test as our primary test runner and test framework, as we believe it to me the most "pythonic" of all testing frameworks (much more so that the standard library's ``unittest`` module, which is clearly heavily influenced by Java and indirectly SmallTalk). This was not always the case, so we plan to migrate our tests progressively to fully leverage py.test as a testing framework (and not just a test runner).
 
 TODO: 
 
@@ -185,6 +185,8 @@ Other topics
 Naming things
 ~~~~~~~~~~~~~
 
+- Stefan Holek, "Choosing Good Names".
+- <http://hilton.org.uk/presentations/naming>
 - <http://journal.stuffwithstuff.com/2016/06/16/long-names-are-long/>
 - <http://journal.stuffwithstuff.com/2009/06/05/naming-things-in-code/>
 
@@ -198,7 +200,3 @@ A few books relevant to this subject:
 - Domain Driven Design (Eric Evans)
 - Growing Object-Oriented Software, Guided by Tests (Steve Freeman et Nat Pryce)
 - Object Design: Roles, Responsibilities, and Collaborations (Rebecca Wirfs-Brock; Alan McKean)
-
-
-
-

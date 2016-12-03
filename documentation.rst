@@ -8,7 +8,7 @@ Principles
 
 Given the tools we are using, the following principles should be applied:
 
-1. We should treat the documentation as first-class deliverable of our software. When you write a public API for module, always build the doc as you develop and check that the doc makes sense.
+1. We should treat the documentation as a first-class deliverable of our software. When you write a public API for a module, always build the doc as you develop and check that the doc makes sense.
 
 2. It's important to treat both the narrative part and the API part properly. If you document only your API, as some developers do, this won't be enough to get potential users on board with our efforts.
 
@@ -21,7 +21,7 @@ Examples of outstanding documentation (among many others) include: `Flask <http:
 Comments
 --------
 
-    *A delicate matter, requiring taste and judgement. I tend to err on the
+    *A delicate matter, requiring taste and judgment. I tend to err on the
     side of eliminating comments, for several reasons. First, if the code is
     clear, and uses good type names and variable names, it should explain
     itself. Second, comments aren't checked by the compiler, so there is no
