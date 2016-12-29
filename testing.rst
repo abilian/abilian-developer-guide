@@ -12,6 +12,8 @@ Unit tests should be fast (less than a few seconds to run a full test suite).
 
 They should use py.test because it's our testing framework of choice.
 
+- <http://devork.be/talks/advanced-fixtures/advfix.html>
+
 
 
 Integration testing
@@ -37,6 +39,13 @@ Use the "page object pattern":
 <https://nulogy.com/who-we-are/company-blog/articles/using-the-page-object-pattern-in-your-automated-tests/>
 to make your test cleaner an maintainable.
 
+Example for Python: <https://github.com/alisaifee/holmium.core/>
+
 Best practices can be explored at SeleniumConf (for instance: <http://2016.seleniumconf.co.uk/>).
 
 
+Links
+-----
+
+- <http://chimera.labs.oreilly.com/books/1234000000754/index.html>: book
+  (focusses on Django)

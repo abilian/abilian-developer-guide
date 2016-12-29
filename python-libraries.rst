@@ -87,6 +87,10 @@ Presentations:
 -  http://techspot.zzzeek.org/files/2011/sqla_arch_retro.key.pdf
 -  Several videos (search "Michael Bayer" on youtube or PyVideo.org).
 
+More resources
+~~~~~~~~~~~~~~
+
+- <https://github.com/dahlia/awesome-sqlalchemy>
 
 Jinja2
 ------

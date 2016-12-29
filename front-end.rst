@@ -6,7 +6,7 @@ References
 
 Since this section is a little short on content, here's a terrific list of recommendations:
 
-- <https://github.com/bendc/frontend-guidelines/blob/master/README.md>
+- <https://github.com/bendc/frontend-guidelines>
 
 Also, this coding guide for HTML and CSS:
 
@@ -50,6 +50,8 @@ UX
 - <https://www.smashingmagazine.com/2010/02/designing-user-interfaces-for-business-web-applications/>
 - <https://uxdesign.cc/ux-trends-2017-46a63399e3d2>
 - <https://www.youtube.com/watch?v=wrlHi2jKw_Y>
+- <http://ux.handson.co/>
+- <https://medium.com/@kennycheny/the-best-user-experience-design-links-of-2016-46e472660a52>
 
 
 JavaScript
@@ -73,6 +75,12 @@ We've used Angular on customers projects in the past.
 Our current JavaScript framework of choice is `Vue.js <http://www.vuejs.org/>`_.
 
 
+Links
+~~~~~
+
+- <https://medium.com/@housecor/12-rules-for-professional-javascript-in-2015-f158e7d3f0fc>
+
+
 CSS
 ---
 
@@ -89,6 +97,11 @@ We're also trying to find a way to write better (more manageable) CSS/LESS/SASS 
 - <http://benfrain.com/the-ten-commandments-of-sane-style-sheets/>
 - <https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f>
 - <http://rscss.io/>
+- <https://github.com/edx/ux-pattern-library/wiki/Styleguide:-Sass-&-CSS>
+- <http://alistapart.com/article/css-audits-taking-stock-of-your-code>
+- <http://ecss.io/>
+- <https://benfrain.com/the-ten-commandments-of-sane-style-sheets/>
+- <https://sass-guidelin.es/>
 
 
 Patterns libraries aka style guides
@@ -96,9 +109,11 @@ Patterns libraries aka style guides
 
 Generalities:
 
+- <http://bradfrost.com/blog/post/style-guides/>
 - <http://www.designforfounders.com/style-tiles/>
 - <https://www.smashingmagazine.com/taking-pattern-libraries-next-level/>
 - <https://24ways.org/2016/designing-imaginative-style-guides/>
+- <https://www.springload.co.nz/blog/introduction-pattern-libraries/>
 
 Specifics:
 
@@ -107,6 +122,7 @@ Specifics:
 - <https://experience.sap.com/fiori-design-web/>
 - <https://design.atlassian.com/>
 
+More here: <https://github.com/gztchan/awesome-design#style-guidebranding-octocat>
 
 
 Build tools
