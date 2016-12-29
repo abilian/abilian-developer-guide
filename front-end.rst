@@ -16,8 +16,8 @@ Also, this coding guide for HTML and CSS:
 Past, present, future
 ---------------------
 
-Current state
-~~~~~~~~~~~~~
+Current (aka old) state
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Our front-end code base (at least for Abilian Core and Abilian SBE) is currently composed of the following JavaScript libraries:
 
@@ -35,6 +35,8 @@ A lot have changed in the JavsScript world over the last three years, since we'v
 While the "jQuery + plugins + spaghetti code" approach that we've been using so far is probably enough for the kind of interaction we're featuring currently, it's now time to be more ambitious with our front-end code.
 
 We need to move our code base to a more modern, decoupled, archiecture.
+
+Our framework of choice is now Vue.js.
 
 
 Constraints
@@ -110,9 +112,16 @@ Specifics:
 Build tools
 -----------
 
-We're using NPM for package management, and WebPack for build.
+We're using NPM for package management (and also YARN), and WebPack for build.
 
 WebPack provides live reloading (with the right extension) so that's cool.
+
+We **don't** use gulp or grunt.
+
+- <https://medium.com/@dabit3/introduction-to-using-npm-as-a-build-tool-b41076f488b0>
+- <https://yarnpkg.com/>
+- <https://webpack.js.org/>
+
 
 Quality assurance
 -----------------
