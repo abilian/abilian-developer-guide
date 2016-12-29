@@ -42,6 +42,13 @@ Constraints
 
 Like everyone who is doing front-end development, we have to deal with buggy browsers from the pasts.
 
+UX
+--
+
+- <https://www.smashingmagazine.com/2010/02/designing-user-interfaces-for-business-web-applications/>
+- <https://uxdesign.cc/ux-trends-2017-46a63399e3d2>
+- <https://www.youtube.com/watch?v=wrlHi2jKw_Y>
+
 
 JavaScript
 ----------
@@ -73,11 +80,31 @@ We're using LESS (or SASS, depending on the phase of the moon).
 
 We're also trying to find a way to write better (more manageable) CSS/LESS/SASS code to go along our pluggable architecture. The following posts (and all the references given therein) give a lot of interesting advice and point to several useful methodologies, that we should put to use:
 
+- <https://github.com/jareware/css-architecture>
 - <https://speakerdeck.com/mdo/at-mdo-ular-css>
 - <https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06>
 - <https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem>
 - <http://benfrain.com/the-ten-commandments-of-sane-style-sheets/>
 - <https://medium.com/@Heydon/things-to-avoid-when-writing-css-1a222c43c28f>
+- <http://rscss.io/>
+
+
+Patterns libraries aka style guides
+-----------------------------------
+
+Generalities:
+
+- <http://www.designforfounders.com/style-tiles/>
+- <https://www.smashingmagazine.com/taking-pattern-libraries-next-level/>
+- <https://24ways.org/2016/designing-imaginative-style-guides/>
+
+Specifics:
+
+- <https://medium.com/ge-design/ges-predix-design-system-8236d47b089>
+- <https://lightningdesignsystem.com/>
+- <https://experience.sap.com/fiori-design-web/>
+- <https://design.atlassian.com/>
+
 
 
 Build tools

@@ -14,6 +14,7 @@ Contents:
    python
    python-libraries
    front-end
+   testing
    documentation
    tools
    open-source
