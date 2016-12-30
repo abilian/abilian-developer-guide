@@ -3,6 +3,10 @@ Testing
 
 Testing is very important. If it's not tested, it's broken.
 
+General concepts
+
+- <https://blog.nelhage.com/2016/12/how-i-test/>
+- <https://blog.nelhage.com/2016/03/design-for-testability/>
 
 
 Unit testing
