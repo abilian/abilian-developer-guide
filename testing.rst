@@ -32,6 +32,8 @@ Front-end testing
 When developing SPA (single page applications), use your framework of choice 
 prefered testing tools to implement unit and integration tests.
 
+- https://www.sitepoint.com/javascript-testing-unit-functional-integration/>
+
 
 Full stack testing
 ------------------

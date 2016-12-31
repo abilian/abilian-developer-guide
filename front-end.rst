@@ -64,6 +64,11 @@ We've used CoffeeScript in the past, but have reversed the decision to base all 
 
 We're now using ES6 aka ES2015 using the `Babel <https://babeljs.io/>`_ transpiler for our new projects (part of our existing code base is still based on ES5).
 
+Here are some references regarding ES2015:
+
+- <http://slides.com/drksephy/ecmascript-2015>
+- <https://github.com/getify/You-Dont-Know-JS> (book series)
+
 We plan to try using TypeScript in the future.
 
 
@@ -102,6 +107,7 @@ We're also trying to find a way to write better (more manageable) CSS/LESS/SASS 
 - <http://ecss.io/>
 - <https://benfrain.com/the-ten-commandments-of-sane-style-sheets/>
 - <https://sass-guidelin.es/>
+- <https://philipwalton.com/articles/decoupling-html-css-and-javascript/>
 
 
 Patterns libraries aka style guides
@@ -121,6 +127,8 @@ Specifics:
 - <https://lightningdesignsystem.com/>
 - <https://experience.sap.com/fiori-design-web/>
 - <https://design.atlassian.com/>
+- <http://dropbox.github.io/scooter/>
+- <https://buffer.com/style-guide>
 
 More here: <https://github.com/gztchan/awesome-design#style-guidebranding-octocat>
 
