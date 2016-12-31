@@ -19,5 +19,6 @@ Contents:
    tools
    open-source
    others
+   misc
    open-questions
-   checlists
+   checklists

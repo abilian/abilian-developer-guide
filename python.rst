@@ -17,6 +17,7 @@ We plan to use Git commit hooks to ensure that every new commit in the future fu
 More:
 
 - <https://github.com/amontalenti/elements-of-python-style>
+- <https://github.com/marrow/marrow.github.io/wiki/Zen>
 
 
 Python 2 vs. Python 3
@@ -24,11 +25,18 @@ Python 2 vs. Python 3
 
 We're currently still using Python 2 in our production code.
 
-We've started work to support Python 3 (alongside Python 2) on our open source projects, we plan to finish it in 2016.
+From 2017 on, we plan to start new projects using only Python 3, unless there
+are strong technical reasons not to do so.
 
-We've used the `Python Future <http://python-future.org/>`_ project for this, but more recently switched to `six <https://pythonhosted.org/six/>`_ because it's more standards.
+We've started work to support Python 3 (alongside Python 2) on our open source
+projects, using the "six" library. We plan to finish it in 2017.
 
-``pylint --py3k`` is quite useful to help identify issues in current Python 2 code preventing migration to Python 3.
+We've used the `Python Future <http://python-future.org/>`_ project for this,
+but more recently switched to `six <https://pythonhosted.org/six/>`_ because
+it's more standard.
+
+``pylint --py3k`` is quite useful to help identify issues in current Python 2
+code preventing migration to Python 3.
 
 More info:
 
@@ -36,6 +44,7 @@ More info:
 - <http://python3porting.com/>
 - <https://tech.yplanapp.com/2016/08/24/upgrading-to-python-3-with-zero-downtime/>
 - <http://python-future.org/compatible_idioms.html>
+
 
 
 General Python recommandations
@@ -54,12 +63,12 @@ In this section, we list tools that directly support our Python development proc
 - YAPF (see above)
 - Flake8 (see above)
 - isort (see above)
-- ``pip-tools`` [TODO]
+- ``pip-tools`` (see below)
+- Mypy (static checking using annotations)
 
 Not used yet:
 
-- Mypy (static checking using annotations)
-- Pylint (static checker, more powerful than Flake8 but needs more tuning)
+- Pylint (static checker, more powerful than Flake8 but needs more tuning). Currently used only to check for py3k compatibility (see above).
 
 
 Managing dependencies
@@ -68,6 +77,8 @@ Managing dependencies
 We manage dependencies for our projects and build them using pip.
 
 Mandatory read: <https://caremad.io/2013/07/setup-vs-requirement/>.
+
+Use pip-tools (<https://github.com/nvie/pip-tools>).
 
 
 Virtualenv
@@ -79,6 +90,8 @@ The doc: <https://virtualenv.pypa.io/en/stable/>.
 
 PyPI mirror
 ~~~~~~~~~~~
+
+Note: as of early 2017, this is not true anymore.
 
 We have set up an internal PyPI mirror, using the `devpi <http://doc.devpi.net/latest/>`_ project.
 

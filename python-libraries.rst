@@ -4,7 +4,7 @@ Libraries and Frameworks (Python)
 TL;DR
 -----
 
-Here are the most important Python libraries we're using daily to develop the Abilian platform:
+Here are the most important Python libraries we're using daily to develop the Abilian platform and projects:
 
 -  Flask: http://flask.pocoo.org/
 -  Bootstrap: http://twitter.github.com/bootstrap/
@@ -48,6 +48,7 @@ Some insightful presentations:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - <http://mitsuhiko.pocoo.org/pyladies.pdf>: very basic intro by Armin himself.
+- <http://mitsuhiko.pocoo.org/flaskfun.pdf>: high level design considerations, but also some very useful code snippets.
 - <https://speakerdeck.com/kennethreitz/flasky-goodness>
 - <https://speakerdeck.com/mitsuhiko/advanced-flask-patterns>: must read (several times) once you've mastered the basics
 - http://ua.pycon.org/static/talks/davydenko.pdf
