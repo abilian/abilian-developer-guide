@@ -109,6 +109,11 @@ The packaging allows us to distribute our modules for all developers who would l
 
 The packages are hosted on Pypi mirror and can be installed with pip or easyinstall.
 
+Links:
+
+- <https://blog.ionelmc.ro/presentations/packaging/>
+
+
 Standard structure for a Python project
 ---------------------------------------
 
