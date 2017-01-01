@@ -62,4 +62,10 @@ For our open source projects, here is our definition (draft):
 - Release notes updated for upcoming release
 - Ticket move to "Done" and/or closed
 
+Other / misc checklists
+-----------------------
+
+- <http://webdevchecklist.com/> Web Developer Checklist
+
+
 

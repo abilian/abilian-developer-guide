@@ -51,7 +51,11 @@ UX
 - <https://uxdesign.cc/ux-trends-2017-46a63399e3d2>
 - <https://www.youtube.com/watch?v=wrlHi2jKw_Y>
 - <http://ux.handson.co/>
+- <http://www.designingsocialinterfaces.com/patterns/Main_Page> + associated book
 - <https://medium.com/@kennycheny/the-best-user-experience-design-links-of-2016-46e472660a52>
+- <https://en.99designs.fr/blog/tips/7-unbreakable-laws-of-user-interface-design/>
+- <https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda>
+- <https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96>
 
 
 JavaScript

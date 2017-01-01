@@ -17,6 +17,7 @@ Contents:
    testing
    documentation
    tools
+   devops
    open-source
    others
    misc

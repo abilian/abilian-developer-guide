@@ -102,6 +102,11 @@ References
 - `DDD in Ruby <http://victorsavkin.com/ddd>`_.
 - `Code in the Language of the Domain <http://programmer.97things.oreilly.com/wiki/index.php/Code_in_the_Language_of_the_Domain>`_ (short, but profound)
 
+Additional topics
+~~~~~~~~~~~~~~~~~
+
+- Aggregate design: <https://www.infoq.com/news/2014/12/aggregates-ddd> 
+
 
 Hexagonal Architecture (aka "Ports & Adapters", aka "Onion Ar")
 -----------------------------------------------

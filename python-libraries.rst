@@ -20,6 +20,8 @@ Intro and guidelines
 
 TODO.
 
+Need a library: check there first <https://awesome-python.com/>, then PyPI.
+
 
 Flask
 -----
