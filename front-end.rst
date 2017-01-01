@@ -72,8 +72,9 @@ Here are some references regarding ES2015:
 
 - <http://slides.com/drksephy/ecmascript-2015>
 - <https://github.com/getify/You-Dont-Know-JS> (book series)
+- <http://exploringjs.com/es6/>
 
-We plan to try using TypeScript in the future.
+We plan to try using TypeScript (a statically typed variant of JS) in the future.
 
 
 Libraries / frameworks

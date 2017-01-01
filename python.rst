@@ -111,6 +111,7 @@ The packages are hosted on Pypi mirror and can be installed with pip or easyinst
 
 Links:
 
+- <https://blog.ionelmc.ro/2014/05/25/python-packaging/>
 - <https://blog.ionelmc.ro/presentations/packaging/>
 
 
