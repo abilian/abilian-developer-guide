@@ -108,8 +108,8 @@ Additional topics
 - Aggregate design: <https://www.infoq.com/news/2014/12/aggregates-ddd> 
 
 
-Hexagonal Architecture (aka "Ports & Adapters", aka "Onion Ar")
------------------------------------------------
+Hexagonal Architecture
+----------------------
 
 (Also known as "Ports & Adapters" or "Onion Architecture").
 
