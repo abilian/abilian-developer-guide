@@ -55,6 +55,7 @@ Some insightful presentations:
 - <https://speakerdeck.com/mitsuhiko/advanced-flask-patterns>: must read (several times) once you've mastered the basics
 - http://ua.pycon.org/static/talks/davydenko.pdf
 - https://speakerdeck.com/jperras/large-scale-applications-with-flask-doing-more-with-less
+- <http://slides.skien.cc/flask-hacks-and-best-practices/>
 
 
 Well-done projects:

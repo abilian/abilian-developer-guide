@@ -66,6 +66,6 @@ Other / misc checklists
 -----------------------
 
 - <http://webdevchecklist.com/> Web Developer Checklist
-
+- <https://github.com/futurice/backend-best-practices#release-checklist>
 
 
