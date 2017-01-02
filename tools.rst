@@ -16,17 +16,21 @@ We like having a Makefile at the root of our projects.
 
 It should at least support the following targets:
 
-- ``tests``
+- ``tests`` (default)
 - ``clean`` and ``tidy``
 - ``run``
+- ``lint``
+- ``format``
+
+Some inspiration here: <https://github.com/aclark4life/project-makefile> + <http://slides.com/aclark/project-makefile#/>
 
 
 Others
 ~~~~~~
 
-As already stated elsewhere in this document, we're using `setuptools` to build Python packages.
+As already stated elsewhere in this document, we're using `setuptools` to build Python packages.  See the fine blog posts by Hynek and Ionel (referenced elsewhere in this doc).
 
-For front-end packages, we're trying to catch up with the current best practices (which seem to change every 3 montsh or so).
+For front-end packages: use `npm` and `webpack` (not `gulp` or `grunt`, they are probably fine but not needed). Investigate `rollup`.
 
 
 Source code management
@@ -45,11 +49,12 @@ private group account later (it's more expensive ;).
 Continuous integration
 ----------------------
 
-We're using Travis for public projects, and a Jenkins instance for
-private projects (+ for public projects too).
+We're using Travis for public projects, and Circle CI for both public and private projects.
 
--  https://travis-ci.org/abilian/abilian-core (and other projects)
--  http://jenkins.abilian.com/
+- https://travis-ci.org/abilian/
+- https://circleci.com/projects/gh/abilian
+
+We used to use Jenkins, and might use it again in the future. Or gitlab CI. But not ATM.
 
 
 Tasks and issues management

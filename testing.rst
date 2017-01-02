@@ -53,5 +53,4 @@ Best practices can be explored at SeleniumConf (for instance: <http://2016.selen
 Links
 -----
 
-- <http://chimera.labs.oreilly.com/books/1234000000754/index.html>: book
-  (focusses on Django)
+- <http://www.obeythetestinggoat.com/pages/book.html> "Test-Driven Web Development with Python": (focusses on Django)

@@ -29,7 +29,7 @@ Documentation
 
 Points to address:
 
-- Write a Readme document
+- Write a Readme document (Cf. <https://github.com/noffle/art-of-readme>).
 - Write a History document
 - Write a Contributing document
 - Write a Guidelines document
