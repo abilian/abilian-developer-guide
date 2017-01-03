@@ -44,6 +44,7 @@ More info:
 - <http://python3porting.com/>
 - <https://tech.yplanapp.com/2016/08/24/upgrading-to-python-3-with-zero-downtime/>
 - <http://python-future.org/compatible_idioms.html>
+- <http://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/> (NB: we don't follow Armin's advice of not using `six`).
 
 
 
@@ -148,4 +149,4 @@ These documents are rich collections of tips and links to sources of knowledge:
 
 - <http://docs.python-guide.org/>
 - <http://www.fullstackpython.com/table-of-contents.html>
-- <https://github.com/kirang89/pycrumbs/blob/master/pycrumbs.md>
+- <https://github.com/kirang89/pycrumbs/>
