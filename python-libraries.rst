@@ -76,20 +76,21 @@ SQLAlchemy was first released in February 2006 and has quickly become one of the
 Reference:
 ~~~~~~~~~~
 
--  http://sqlalchemy.org/
--  Manuel PDF (560 pages)
+- http://sqlalchemy.org/
+- PDF Manual (560 pages)
 
 Insightful articles
 ~~~~~~~~~~~~~~~~~~~
 
--  http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
--  http://www.aosabook.org/en/sqlalchemy.html
+- http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/
+- http://www.aosabook.org/en/sqlalchemy.html
+- http://derrickgilland.com/posts/demystifying-flask-sqlalchemy/
 
 Presentations:
 ~~~~~~~~~~~~~~
 
--  http://techspot.zzzeek.org/files/2011/sqla_arch_retro.key.pdf
--  Several videos (search "Michael Bayer" on youtube or PyVideo.org).
+- http://techspot.zzzeek.org/files/2011/sqla_arch_retro.key.pdf
+- Several videos (search "Michael Bayer" on youtube or PyVideo.org).
 
 More resources
 ~~~~~~~~~~~~~~
@@ -128,6 +129,7 @@ Babel is an integrated collection of utilities that assist in internationalizing
 
 Doc : <http://babel.pocoo.org/en/latest/>
 
+(NB: not to be confused with babeljs, the EE6->ES5 transpiler).
 
 Other libraries
 ---------------
