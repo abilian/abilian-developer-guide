@@ -1,6 +1,13 @@
 Software Design and Architecture
 ================================
 
+"Clean code"
+------------
+
+Follow these principles:
+
+- See <http://mike.zwobble.org/on-software-development/clean-code/>
+
 
 The "4 principles of simple design"
 -----------------------------------
