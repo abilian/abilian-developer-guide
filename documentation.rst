@@ -29,11 +29,18 @@ Comments
     misleading comment can be very confusing. Third, the issue of typography:
     comments clutter code.* -- Rob Pike
 
+- <http://ericholscher.com/blog/2017/jan/27/code-is-self-documenting/>
+- <https://dev.to/raddikx/dont-document-your-code-code-your-documentation>
+
 
 Tools
 -----
 
 For Python software, we use Sphinx to generate documentation from both standalone texts, and text embedded in the code (using Docstrings).
+
+<http://ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/>
+
+BTW, we're not using Markdown (or just parcimonuously) for reasons outlined there: <http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/>.
 
 We publish our documentation on `ReadTheDoc <https://readthedocs.org/>`_.
 
