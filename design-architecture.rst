@@ -51,6 +51,11 @@ Here are a few references:
 - `SOLID <http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>`_ and `GRASP <http://en.wikipedia.org/wiki/GRASP_(object-oriented_design)>`_ (according to Wikipedia)
 - See also: <http://nikic.github.com/2011/12/27/Dont-be-STUPID-GRASP-SOLID.html>
 
+Counterpoint:
+
+- <https://speakerdeck.com/tastapod/why-every-element-of-solid-is-wrong>
+
+
 
 Domain Driven Design
 --------------------

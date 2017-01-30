@@ -17,55 +17,54 @@ References:
 Bug tracking
 ~~~~~~~~~~~~
 
-We use bug trackers to tracks bugs. Sometimes 
+We use bug trackers to tracks bugs.
 
 Of course the workflow is different when we work on customer projets and on open source projects.
 
-One important thing to keep in mind is how to prioritize issues:
+One important thing to keep in mind is how to prioritize issues. For this, we're roughly following the *IEEE Standard Classification for Software Anomalies*:
 
-- Critical: TODO.
-- Blocking: TODO.
-- Major: TODO.
-- Minor: TODO.
+- **Blocking**: Testing is inhibited or suspended pending correction or identification of suitable workaround.
+- **Critical**: Essential operations are unavoidably disrupted, safety is jeopardized, and security is compromised.
+- **Major**: Essential operations are affected but can proceed.
+- **Minor**: Nonessential operations are disrupted.
+- **Inconsequential**: No significant impact on operations.
 
 
 Tools
 ~~~~~
 
-For our public projects, which are hosted on GitHub, we use GitHub's issue tracker.
+For both our public projects and our internal communication, we're using GitHub's issue tracker and GitHub "Projects" (kanban-style vue on issues and pull requests).
 
-We use Huboard as a kanban-like front-end to GitHub.
-
-For our customers projets, we use Redmine (and ar considering switching to Taiga).
+When we need to communicate (privately) with our customers, we're using (currently) either Redmine (private instance) or Trello.
 
 
 Git
 ---
 
-Our git branching model is mix of `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ and `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
+There are basically two main branching models for git-based development:
 
-- Anything in the master branch is deployable
-- To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
-- Commit to that branch locally and regularly push your work to the same named branch on the server
-- When you need feedback or help, or you think the branch is ready for merging, open a pull request
-- After someone else has reviewed and signed off on the feature, you can merge it into master
+- `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ or its close cousing `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
+- `Trunk based developmen <https://trunkbaseddevelopment.com/>`_.
+
+Wether we use the former or the latter depends on several factors, some of which are contextual.
+
+Here are a few principles:
+
+- Anything in the trunk (also called "master") branch is deployable.
+- Ensure that the code you work on is thouroughly tested (~100% coverage)
+- **Either**: commit improvement directly to trunk, and count on a posteriori code reviews to ensure ("better ask forgiveness than permission")
+- **Or**: 
+    - To work on something new, create a descriptively named branch off of master (ie: new-oauth2-scopes)
+    - Commit to that branch locally and regularly push your work to the same named branch on the server
+    - When you need feedback or help, or you think the branch is ready for merging, open a pull request
+    - After someone else has reviewed and signed off on the feature, you can merge it into master
 - When making a release, we tag our tree with version numbers and make a branch from a release when we need to backport a patch.
 
-
-Branching
-~~~~~~~~~
-
-TODO.
 
 Code reviews
 ~~~~~~~~~~~~
 
-TODO.
-
-References
-~~~~~~~~~~
-
-- <http://www.stateofcode.com/2013/05/never-commit-to-master/>
+See: <https://blog.scottnonnenberg.com/top-ten-pull-request-review-mistakes/>.
 
 
 Versionning and releasing
@@ -74,10 +73,17 @@ Versionning and releasing
 (Semantic) Versionning
 ~~~~~~~~~~~~~~~~~~~~~~
 
+See:
+
+- <http://semver.org/>
+- <https://www.python.org/dev/peps/pep-0440/>
+
 Releasing
 ~~~~~~~~~
 
-To make a release:
+We're (currently) using the `setuptools-scm <https://github.com/pypa/setuptools_scm>`_ package to define version numbers for packages from git tags.
+
+To make a release using this system:
 
 - Update the following files: ``CHANGES.rst`` and ``CONTRIBUTORS.rst``.
 - Test locally
@@ -89,3 +95,4 @@ To make a release:
 
 When releasing a new package on PyPI, add the ``python setup.py register`` phase.
 
+This may change in the future.

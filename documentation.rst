@@ -36,9 +36,13 @@ Comments
 Tools
 -----
 
-For Python software, we use Sphinx to generate documentation from both standalone texts, and text embedded in the code (using Docstrings).
+For Python software, we use `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ to generate documentation from both standalone texts, and text embedded in the code (using Docstrings).
 
-<http://ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/>
+See: <http://ericholscher.com/blog/2016/jul/1/sphinx-and-rtd-for-writers/>
+
+This means that our documentation is written using the RestucturedText (ReST) language. This cheat sheet can be useful:
+
+<http://github.com/ralsina/rst-cheatsheet/raw/master/rst-cheatsheet.pdf>
 
 BTW, we're not using Markdown (or just parcimonuously) for reasons outlined there: <http://ericholscher.com/blog/2016/mar/15/dont-use-markdown-for-technical-docs/>.
 
