@@ -1,6 +1,33 @@
 Front-end
 =========
 
+Update 2018
+-----------
+
+JavaScript
+~~~~~~~~~~
+
+We use eslint to keep our code tidy.
+
+We may switch to TypeScript in the future.
+
+We use prettier to auto-format our code, with appropriate plugins to format JS code inside HTML or Vue components.
+
+We use Jest for tests.
+
+VueJS
+~~~~~
+
+We now use VueJS for our new front-end projects.
+
+Some references:
+
+- Official Style Guide: <https://vuejs.org/v2/style-guide/>
+- Testing: use <https://github.com/vuejs/vue-test-utils>
+- Additional resources on testing:
+  - <https://medium.com/pixelmatters/unit-testing-with-vue-approach-tips-and-tricks-part-1-b7d3209384dc>
+
+
 References
 ----------
 
