@@ -59,7 +59,7 @@ Here are a few principles:
     - When you need feedback or help, or you think the branch is ready for merging, open a pull request
     - After someone else has reviewed and signed off on the feature, you can merge it into master
 - When making a release, we tag our tree with version numbers and make a branch from a release when we need to backport a patch.
-
+- `Commit messages: <https://github.com/RomuloOliveira/commit-messages-guide>`_.
 
 Code reviews
 ~~~~~~~~~~~~
