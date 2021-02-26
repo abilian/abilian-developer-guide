@@ -41,9 +41,12 @@ When we need to communicate (privately) with our customers, we're using (current
 Git
 ---
 
+Branch model
+~~~~~~~~~~~~
+
 There are basically two main branching models for git-based development:
 
-- `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ or its close cousing `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
+- `git-flow <http://nvie.com/posts/a-successful-git-branching-model/>`_ or its close cousin `GitHub flow <http://scottchacon.com/2011/08/31/github-flow.html>`_.
 - `Trunk based developmen <https://trunkbaseddevelopment.com/>`_.
 
 Wether we use the former or the latter depends on several factors, some of which are contextual.
@@ -59,7 +62,15 @@ Here are a few principles:
     - When you need feedback or help, or you think the branch is ready for merging, open a pull request
     - After someone else has reviewed and signed off on the feature, you can merge it into master
 - When making a release, we tag our tree with version numbers and make a branch from a release when we need to backport a patch.
-- `Commit messages: <https://github.com/RomuloOliveira/commit-messages-guide>`_.
+
+
+Commit messages
+~~~~~~~~~~~~~~~
+
+- Use `Conventional Style <https://www.conventionalcommits.org/en/v1.0.0/>`_ to format your commit messages.
+- Use `Auto-Changelog <https://github.com/KeNaCo/auto-changelog>`_ to generate Changelogs from commit messages.
+- Some additional remarks on `Commit messages: <https://github.com/RomuloOliveira/commit-messages-guide>`_.
+
 
 Code reviews
 ~~~~~~~~~~~~
@@ -77,6 +88,7 @@ See:
 
 - <http://semver.org/>
 - <https://www.python.org/dev/peps/pep-0440/>
+- <https://github.com/relekang/python-semantic-release>
 
 Releasing
 ~~~~~~~~~
