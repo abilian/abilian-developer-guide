@@ -60,7 +60,7 @@ We are the main developers of the following open source projects:
 
 - `Abilian Core <https://github.com/abilian/abilian-core>`_
 - `Abilian SBE <https://github.com/abilian/abilian-sbe>`_
-- `OlaPy <https://github.com/abilian/olapy`_
+- `OlaPy <https://github.com/abilian/olapy>`_
 
 
 Open source vs. customers projects
