@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-Developer latop setting
+Developer laptop set-up
 -----------------------
 
 Vagrant
@@ -30,6 +30,10 @@ Install some dependencies::
        pcre pixman pkg-config postgresql python python3 redis wget
 
 (TODO: this is actually overkill, since some of these packages are actually dependencies of others.)
+
+
+Generic (Python tools)
+~~~~~~~~~~~~~~~~~~~~~~
 
 Install virtualenvwrapper::
 
