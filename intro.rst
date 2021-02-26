@@ -12,6 +12,10 @@ Here are some other similar document that have served as inspiration as we wrote
 - <https://github.com/thisissoon/Handbook>
 - <http://playbook.thoughtbot.com/>
 
+
+This doc is readable on <https://abilian-developer-guide.readthedocs.io/en/latest/>
+
+
 Status
 ~~~~~~
 
