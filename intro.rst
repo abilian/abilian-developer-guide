@@ -30,10 +30,8 @@ Here are a few reasons:
 - By publishing it, we hope to attract like-minded developers to strengthen our team.
 
 
-
 Vision
 ------
-
 
 About Abilian
 ~~~~~~~~~~~~~
@@ -58,8 +56,7 @@ We are the main developers of the following open source projects:
 
 - `Abilian Core <https://github.com/abilian/abilian-core>`_
 - `Abilian SBE <https://github.com/abilian/abilian-sbe>`_
-- Abilian CRM (not packaged yet)
-- `COMT <https://github.com/co-ment/comt>`_
+- `OlaPy <https://github.com/abilian/olapy`_
 
 
 Open source vs. customers projects
@@ -73,12 +70,13 @@ When working on open source projects, we need to take a great care of not just m
 Languages
 ~~~~~~~~~
 
-We expect our developers to be fluent in the following languages:
+We expect our developers to have knowledge of the following languages:
 
-- Python (2 and 3)
-- JavaScript (including ES6)
+- Python 3
+- JavaScript (ES6 and later)
 - HTML
-- CSS (and its more powerful variants, LESS and SASS)
+- CSS
+- SQL
 - RestucturedText and Markdown
 - English
 
