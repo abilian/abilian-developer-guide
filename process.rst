@@ -53,7 +53,7 @@ Wether we use the former or the latter depends on several factors, some of which
 
 Here are a few principles:
 
-- Anything in the trunk (also called "master") branch is deployable.
+- Anything in the trunk (also called "main") branch is deployable.
 - Ensure that the code you work on is thouroughly tested (~100% coverage)
 - **Either**: commit improvement directly to trunk, and count on a posteriori code reviews to ensure ("better ask forgiveness than permission")
 - **Or**: 
@@ -67,9 +67,24 @@ Here are a few principles:
 Commit messages
 ~~~~~~~~~~~~~~~
 
+Prefix each commit with one of the following:
+
+- feat: A new feature
+- fix: A bug fix
+- docs: Documentation only changes
+- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- refactor: A code change that neither fixes a bug nor adds a feature
+- perf: A code change that improves performance
+- test: Adding missing or correcting existing tests
+- chore: Changes to the build process or auxiliary tools and libraries such as documentation generation
+
+See:
+
 - Use `Conventional Style <https://www.conventionalcommits.org/en/v1.0.0/>`_ to format your commit messages.
 - Use `Auto-Changelog <https://github.com/KeNaCo/auto-changelog>`_ to generate Changelogs from commit messages.
 - Some additional remarks on `Commit messages: <https://github.com/RomuloOliveira/commit-messages-guide>`_.
+- See also: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#commits
+
 
 
 Code reviews
