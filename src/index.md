@@ -1,8 +1,8 @@
-How We Work: the Abilian Developer Guide
-========================================
+# How We Work: the Abilian Developer Guide
 
 Contents:
 
+```{eval-rst}
 .. toctree::
    :maxdepth: 2
 
@@ -24,3 +24,4 @@ Contents:
    misc
    open-questions
    checklists
+```

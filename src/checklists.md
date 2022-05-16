@@ -1,21 +1,16 @@
-Important checklists
-====================
+# Important checklists
 
 Here we will list important checklists.
 
 They are not written yet.
 
-
-Committing
-----------
+## Committing
 
 Before a commit:
 
 - TODO.
 
-
-Releasing software packages
----------------------------
+## Releasing software packages
 
 To release software (NB: TODO):
 
@@ -25,8 +20,7 @@ To release software (NB: TODO):
 - Build
 - Push on PyPI
 
-README checklist
-~~~~~~~~~~~~~~~~
+### README checklist
 
 A helpful checklist to gauge how your README is coming along:
 
@@ -41,28 +35,23 @@ A helpful checklist to gauge how your README is coming along:
 - Doesn't rely on images to relay critical information
 - License
 
-(From https://github.com/noffle/art-of-readme).
+(From <https://github.com/noffle/art-of-readme>).
 
+## Scrum checklist
 
-Scrum checklist
----------------
+\<<https://www.crisp.se/wp-content/uploads/2012/05/Scrum-checklist.pdf>>
 
-<https://www.crisp.se/wp-content/uploads/2012/05/Scrum-checklist.pdf>
+## Definition of Done
 
+Definition: \<<http://guide.agilealliance.org/guide/definition-of-done.html>>
 
-Definition of Done
-------------------
-
-Definition: <http://guide.agilealliance.org/guide/definition-of-done.html>
-
-See also: <http://www.scrum-breakfast.com/2014/05/the-three-faces-of-done.html>
+See also: \<<http://www.scrum-breakfast.com/2014/05/the-three-faces-of-done.html>>
 
 Expected benefits:
 
 - the Definition of Done provides a checklist which usefully guides pre-implementation activities: discussion, estimation, design
 - the Definition of Done limits the cost of rework once a feature has been accepted as "done"
 - having an explicit contract limits the risk of misunderstanding and conflict between the development team and the customer or product owner
-
 
 For our open source projects, here is our definition (draft):
 
@@ -80,10 +69,7 @@ For our open source projects, here is our definition (draft):
 - Release notes updated for upcoming release
 - Ticket move to "Done" and/or closed
 
-Other / misc checklists
------------------------
+## Other / misc checklists
 
-- <http://webdevchecklist.com/> Web Developer Checklist
-- <https://github.com/futurice/backend-best-practices#release-checklist>
-
-
+- \<<http://webdevchecklist.com/>> Web Developer Checklist
+- \<<https://github.com/futurice/backend-best-practices#release-checklist>>
