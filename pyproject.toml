@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dev-guide"
+version = "0.1.0"
+description = ""
+authors = ["Stefane Fermigier <sf@abilian.com>"]
+readme = "README.md"
+packages = [{include = "dev_guide"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
