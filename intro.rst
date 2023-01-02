@@ -107,13 +107,15 @@ Here is a short list of principles (or list of lists of principles) that should 
 
 - Practice "Documentation Driven Development", for public projects.
 
-  1. Write documentation alongside the code. The simple act of trying to explain to others what we are trying to achieve with our software, and how, helps us clarify our thinking. If it's too hard to explain, then it's probably badly architected, designed or implemented.
+  Write documentation alongside the code. The simple act of trying to explain to others what we are trying to achieve with our software, and how, helps us clarify our thinking. If it's too hard to explain, then it's probably badly architected, designed or implemented.
 
-  2. A simple variant is to practice "`README Driven Development <http://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`_".
+  References:
 
-- Practice Domain Driven Design (DDD).
+  - `README Driven Development <http://tom.preston-werner.com/2010/08/23/readme-driven-development.html>`_
+  - `Documentation-driven Development <https://johnsamuel.info/en/programming/documentation-driven-development.html>`_
+
+- Practice Domain Driven Design (DDD), for complex applications
 
   See the Architecture & Design chapter in this document.
 
 - To ease developments on modern hosting platforms (including our own servers), we've adopted the "Twelve Factor" principles, see: <http://12factor.net/>.
-
